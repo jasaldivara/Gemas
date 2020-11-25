@@ -159,7 +159,7 @@ NSString *PCEditorDidResignActiveNotification =
 
   // Scroll view
   _intScrollView = [[NSScrollView alloc] initWithFrame: rect];
-  [_intScrollView setHasHorizontalScroller: NO];
+  [_intScrollView setHasHorizontalScroller: YES];
   [_intScrollView setHasVerticalScroller: YES];
   [_intScrollView setBorderType: NSBezelBorder];
   [_intScrollView setAutoresizingMask: (NSViewWidthSizable | NSViewHeightSizable)];
